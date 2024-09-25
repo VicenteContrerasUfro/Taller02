@@ -2,9 +2,8 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class RegistroPersonas {
-
-    private static final int maxPersonas = 50;
-    private static final String[][] registro = new String[maxPersonas][3];
+    private static final int MAX_PERSONAS = 50;
+    private static final String[][] registro = new String[MAX_PERSONAS][3];
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
